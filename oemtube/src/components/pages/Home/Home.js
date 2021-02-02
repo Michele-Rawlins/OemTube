@@ -1,5 +1,5 @@
 import React from 'react';
-// import MyCarousel from '../../../shared/MyCarousel/MyCarousel';
+import MyCarousel from '../../../components/shared/MyCarousel/MyCarousel';
 // import { Link } from 'react-router-dom'
 import './Home.scss';
 
@@ -9,7 +9,7 @@ import './Home.scss';
 
 class Home extends React.Component {
   state = {
-    // MyCarousel: [],
+    MyCarousel: [],
   }
 
   render() {
@@ -21,6 +21,7 @@ class Home extends React.Component {
 
    <div className="Home container">
       <h1 className ="title">Welcome</h1>
+      < MyCarousel/>
   
   </div>
  

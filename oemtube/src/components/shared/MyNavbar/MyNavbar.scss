@@ -1,0 +1,42 @@
+
+
+.MyNavbar{
+//   // display: flex;
+//   // justify-content: flex-end;
+//   justify-content: left;
+//   // align-items: flex-end;
+//   position: absolute;
+//   background-color: #B77333;
+//   height: 150px;
+//   // width: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+//   // left: 0;
+}
+
+.navbar-links {
+  position:relative;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  font-family: Lobster;
+}
+
+.navbar-links:hover {
+  color: lightgray;
+}
+
+// .triangle-end {
+//   position: relative;
+//   left: 55%;
+//   top: 10px;
+//   display: inline-block;
+//   width: 0; 
+//   height: 0; 
+//   border-bottom: 150px solid transparent;
+//   /* adjust border-left for overall width */
+//   border-left: 150px solid  #B77333;
+// }
