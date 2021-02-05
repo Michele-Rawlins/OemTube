@@ -20,14 +20,14 @@ render() {
         <BrowserRouter>
           <React.Fragment>
             <MyNavbar />
-              <div className="container">
-                <div className="row">
+              {/* <div className="container"> */}
+                {/* <div className="row"> */}
               <Switch>
               <Route path='/home' component={Home} />
               <Redirect from="*" to='/home'/>
               </Switch>
-     </div>
-    </div>
+     {/* </div> */}
+    {/* </div> */}
      </React.Fragment>
         </BrowserRouter>
         </div>
