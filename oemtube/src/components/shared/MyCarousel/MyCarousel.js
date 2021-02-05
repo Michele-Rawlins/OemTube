@@ -7,21 +7,25 @@ import {
   CarouselCaption
 } from 'reactstrap';
 
+import brazing from '../../../photos/Brazing-Round-Blur.jpg';
+import bender from '../../../photos/bender-kb30.jpg';
+import drier from '../../../photos/drier.png';
+
 const items = [
     {
-      src: 'https://images.unsplash.com/photo-1520694478166-daaaaec95b69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
+      src: {brazing},
       altText: 'Slide 1',
-      caption: 'How to Retain Customers - $400.00'
+      caption: 'Brazing'
     },
     {
-      src: 'https://cdn.pixabay.com/photo/2015/11/06/12/35/control-1027103_1280.jpg',
+      src: {bender},
       altText: 'Slide 2',
-      caption: 'Taxes for Solo Enterpreneur - $800.00'
+      caption: 'Bender'
     },
     {
-      src: 'https://images.unsplash.com/photo-1573167507387-6b4b98cb7c13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
+      src: {drier},
       altText: 'Slide 3',
-      caption: 'How to Run an effective Meeting - $1,000.00'
+      caption: 'Drier'
     }
 ];
 
