@@ -9,8 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // background-color: #B77333;
-  background-color: #2e3F53;
+  background-color: #B77333;
+  // background-color: #2e3F53;
 }
 
 code {
@@ -61,6 +61,7 @@ border-radius: 12px;
   background: url('https://images.unsplash.com/photo-1584774354932-62ceb99e6053?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8Y29wcGVyJTIwcGlwZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') center;
   background-size: cover;
   padding: 4rem 2rem;
+  height: 600px;
 
   /* Grid styles */
   display: grid;
