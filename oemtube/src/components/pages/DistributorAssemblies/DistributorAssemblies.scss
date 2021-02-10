@@ -1,0 +1,27 @@
+#distributorAssemblies-pic{
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  border: solid white;
+  margin-bottom: 10px;
+}
+
+.distributorAssemblies {
+  width: 300px;
+  padding: 25px;
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+//   grid-template-rows: repeat(6, 200px);
+//   grid-gap: 1rem;
+//   grid-auto-flow: dense;
+}
+.distributorAssembliesSections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  flex: 350px;
+  padding:10px;
+  justify-content: space-around;
+  border: solid white;
+
+}
