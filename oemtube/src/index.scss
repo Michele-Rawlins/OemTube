@@ -68,6 +68,14 @@ border-radius: 12px;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
+.header {
+  background-size: cover;
+  box-shadow: 5px 5px 5px 5px black; 
+  align-items: center;
+  width: 1350px;
+  border-radius: 12px;
+  padding: 10px 10px 40px 10px;
+}
 
 button {
   background-color: #808080;
@@ -86,6 +94,7 @@ button {
   // background-color: #808080;
   color: white;
 }
+
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */

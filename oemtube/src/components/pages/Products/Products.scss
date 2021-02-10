@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.links-products {
+  margin-top: 50px;
+  padding: 50px;
+  color:  #B77333;
+  margin-bottom: 30px;
+
+}
+.products {
+  margin-top: 40px;
+}
+
+.column-3 {
+  float: left;
+  width: 800px;
+  margin-bottom: 60px;
+  padding: 10px;
+  border: solid white;
+}
+.column-1, .column-2 {
+  float: left;
+  width: 300px;
+  margin: 10px;
+  height: 600px;
+  margin-bottom: 20px;
+}
+.product-intro {
+  float: left;
+  padding: 10px;
+}

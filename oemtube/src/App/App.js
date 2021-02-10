@@ -9,6 +9,8 @@ import {
 
 import MyNavbar from '../components/shared/MyNavbar/MyNavbar';
 import Home from '../components/pages/Home/Home';
+import Products from '../components/pages/Products/Products';
+import DistributorAssemblies from '../components/pages/DistributorAssemblies/DistributorAssemblies';
 
 class App extends React.Component {
 
@@ -24,6 +26,8 @@ render() {
                 {/* <div className="row"> */}
               <Switch>
               <Route path='/home' component={Home} />
+              <Route path='/distributor' component={DistributorAssemblies} />
+              <Route path='/products' component={Products} />
               <Redirect from="*" to='/home'/>
               </Switch>
      {/* </div> */}
