@@ -11,6 +11,7 @@ import MyNavbar from '../components/shared/MyNavbar/MyNavbar';
 import Home from '../components/pages/Home/Home';
 import Products from '../components/pages/Products/Products';
 import DistributorAssemblies from '../components/pages/DistributorAssemblies/DistributorAssemblies';
+import MyFooter from '../components/shared/MyFooter/MyFooter';
 
 class App extends React.Component {
 
@@ -30,6 +31,7 @@ render() {
               <Route path='/products' component={Products} />
               <Redirect from="*" to='/home'/>
               </Switch>
+              <MyFooter />
      {/* </div> */}
     {/* </div> */}
      </React.Fragment>

@@ -9,7 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #B77333;
+  background-color: black;
+  ;
   // background-color: #2e3F53;
 }
 
@@ -32,14 +33,14 @@ code {
   margin-right: 10px;
 }
 
-.home-title {
+// .home-title {
 //   animation-duration: 8s;
 //   animation-name: slidein;
 //   animation-iteration-count: infinite;
 // //   width: 50px;
 // // height: 50px;
-border-radius: 12px;
-}
+// border-radius: 12px;
+// }
 
 // @keyframes slidein {
 // 0% {
@@ -97,7 +98,7 @@ button {
 
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid #ae7353; /* The typwriter cursor */
   white-space: wrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
@@ -116,5 +117,5 @@ button {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: #ae7353; }
 }
