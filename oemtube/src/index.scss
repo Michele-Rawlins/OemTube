@@ -99,9 +99,10 @@ button {
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #ae7353; /* The typwriter cursor */
-  white-space: wrap; /* Keeps the content on a single line */
+  white-space: wrap; /* unwrap Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
+  background-color: rgba(128,128,128, .3);
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
