@@ -31,7 +31,7 @@ class MyNavbar extends React.Component {
 
                 return(
                     <div className="MyNavbar">
-                      <Navbar dark expand="xl">
+                      <Navbar expand="xl">
                         <img className="home-title"to="/home" src={logo} alt="logo"></img>
                         <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={isOpen} navbar>
@@ -46,12 +46,15 @@ class MyNavbar extends React.Component {
                            <NavLink className="navbar-links" tag={RRNavLink} to='/products'>Products</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="navbar-links" tag={RRNavLink} to='/requestAQuote'>Request A Quote</NavLink>
+                           <NavLink className="navbar-links" tag={RRNavLink} to='/contactus'>Contact Us</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className="navbar-links" tag={RRNavLink} to='/requestquote'>Request A Quote</NavLink>
                        </NavItem>
                                      </Nav>
                     </Collapse>
                 </Navbar>
-                <div className="triangle-end"></div>
+              
             </div>
                  )
                 }

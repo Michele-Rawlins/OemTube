@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 .MyNavbar{
 //   // display: flex;
 //   // justify-content: flex-end;
@@ -7,29 +7,37 @@
 //   // align-items: flex-end;
 //   position: absolute;
   // background-color: #B77333;
-  background-color: #374659;
+  // background-color: #374659;
 //   height: 150px;
 //   // width: auto;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 12px;
+  // background-image: repeating-linear-gradient(#B77333, silver 20%, #B87333 70%)
 //   // left: 0;
 }
 
 .navbar-links {
   position:relative;
   text-decoration: none;
-  color: black;
-  font-size: 30px;
+  color: white;
+  font-size: 20px;
   margin-left: 70px;
   margin-bottom: 10px;
-  font-family: MuseoModerno
+  font-family: Arvo
 
 }
 
 .navbar-links:hover {
   color: lightgray;
+  
+}
+a {
+  color: black;
+}
+.nav-item {
+  color: black;
 }
 
 // .triangle-end {
