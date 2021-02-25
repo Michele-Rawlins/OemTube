@@ -11,7 +11,11 @@ import MyNavbar from '../components/shared/MyNavbar/MyNavbar';
 import Home from '../components/pages/Home/Home';
 import Products from '../components/pages/Products/Products';
 import DistributorAssemblies from '../components/pages/DistributorAssemblies/DistributorAssemblies';
-import MyFooter from '../components/shared/MyFooter/MyFooter';
+import MyWave from '../components/shared/MyWave/MyWave';
+import AboutUs from '../components/pages/AboutUs/AboutUs';
+import RequestQuote from '../components/pages/RequestQuote/RequestQuote';
+import ContactUs from '../components/pages/ContactUs/ContactUs';
+
 
 class App extends React.Component {
 
@@ -29,9 +33,11 @@ render() {
               <Route path='/home' component={Home} />
               <Route path='/distributor' component={DistributorAssemblies} />
               <Route path='/products' component={Products} />
+              <Route path='/aboutus' component={AboutUs} />
+              <Route path='/contactUs' component={ContactUs} />
               <Redirect from="*" to='/home'/>
               </Switch>
-              <MyFooter />
+              {/* <MyWave /> */}
      {/* </div> */}
     {/* </div> */}
      </React.Fragment>

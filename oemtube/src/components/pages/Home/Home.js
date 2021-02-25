@@ -8,6 +8,9 @@ import distributor14 from '../../../photos/Distributor-14-line.jpg';
 import distributorClose from '../../../photos/Distributor-close-up-Edit-1.jpg';
 import distributor40 from '../../../photos/Distributor-40-line.jpg';
 import brassDistributor from '../../../photos/Brass-Distributor-Assembly.jpg';
+import MyWave from '../../shared/MyWave/MyWave';
+import MyNavbar from '../../shared/MyNavbar/MyNavbar';
+import background from '../../../photos/textureCopper.jpg';
 import {
   Collapse,
   Navbar,
@@ -38,24 +41,31 @@ class Home extends React.Component {
 
    <div className="home">
      <section class="hero">
+      
+       {/* <MyNavbar /> */}
+       
+       <div className="heroarea">
+
   <h1 className="typewriter">Let us Fabricate your Future Products</h1>
   <article>
     <p className="intro">No Matter Your Industry.  No Matter Your Design.  We have a solution for You. Click below for a sampling of our custom fabrication.</p>
     <Link to='/products'><button className="intro-button" to='/products'>Browse Products</button></Link>
   </article>
+</div>
 </section>
+
 
 <div class="box-wrapper">
   <div class="box">
     
 <ul id="grid" class="clear">
-            <div className="hexagon">
-           
+           <MyWave/>
+            {/* <div className="hexagon">
              <img className="text distributorAssembliesHome" id="distributorAssemblies-pichome"src={brassDistributor} />
             <Link className="text links-products"to='/distributor' id="distributorLink">Distributors</Link>
 
              
-            </div>
+            </div> */}
   </ul>
 </div>
 
