@@ -32,9 +32,9 @@ class MyNavbar extends React.Component {
                 return(
                     <div className="MyNavbar">
                       <Navbar expand="xl">
-                        <img className="home-title"to="/home" src={logo} alt="logo"></img>
                         <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={isOpen} navbar>
+                        <img className="home-title"to="/home" src={logo} alt="logo"></img>
                         <Nav className="ml-auto" navbar>
                         <NavItem>
                             <NavLink className="navbar-links" tag={RRNavLink} to='/home'>Home</NavLink>
@@ -45,9 +45,9 @@ class MyNavbar extends React.Component {
                         <NavItem>
                            <NavLink className="navbar-links" tag={RRNavLink} to='/products'>Products</NavLink>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                            <NavLink className="navbar-links" tag={RRNavLink} to='/contactus'>Contact Us</NavLink>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
                             <NavLink className="navbar-links" tag={RRNavLink} to='/requestquote'>Request A Quote</NavLink>
                        </NavItem>
