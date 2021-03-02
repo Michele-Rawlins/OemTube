@@ -11,7 +11,7 @@ import MyNavbar from '../components/shared/MyNavbar/MyNavbar';
 import Home from '../components/pages/Home/Home';
 import Products from '../components/pages/Products/Products';
 import DistributorAssemblies from '../components/pages/DistributorAssemblies/DistributorAssemblies';
-import MyWave from '../components/shared/MyWave/MyWave';
+import MyFooter from '../components/shared/MyFooter/MyFooter';
 import AboutUs from '../components/pages/AboutUs/AboutUs';
 import RequestQuote from '../components/pages/RequestQuote/RequestQuote';
 import ContactUs from '../components/pages/ContactUs/ContactUs';
@@ -38,7 +38,9 @@ render() {
               <Route path='/contactUs' component={ContactUs} />
               <Redirect from="*" to='/home'/>
               </Switch>
-              <MyFooter/>
+
+              <MyFooter />
+
      {/* </div> */}
     {/* </div> */}
      </React.Fragment>

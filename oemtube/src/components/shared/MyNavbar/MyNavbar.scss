@@ -6,11 +6,13 @@
 //   justify-content: left;
 //   // align-items: flex-end;
 //   position: absolute;
-  background-color: #B77333;
-  // background-color: #374659;
-  height: 110px;
-//   // width: auto;
-  margin-top: 0px;
+
+  // background-color: #B77333;
+  background-color: #374659;
+  height: 125px;
+  width: auto;
+  margin-top: 5px;
+
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 10px;
@@ -27,12 +29,17 @@
   margin-left: 50px;
   margin-bottom: 10px;
   font-family: Arvo;
+
+  // color: black;
+//  color: #B77333
   border-right:solid 1px #fff;
+
 
 }
 
 .navbar-links:hover {
   color: lightgray;
+  
   
 }
 a {
