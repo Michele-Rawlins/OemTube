@@ -30,7 +30,7 @@ import * as emailjs from 'emailjs-com';
         message_html: message,
       };
       emailjs.send(
-        'sales@oemtube.com',
+        // 'gmail',
       //   'template_XXXXXXXX',
       //    templateParams,
       //   'user_XXXXXXXXXXXXXXXXXXXX'
