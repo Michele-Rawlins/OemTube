@@ -19,6 +19,9 @@ import {
   Nav,
   NavItem,
   NavLink,
+  Row,
+  Container,
+  Col
 } from 'reactstrap';
 
 
@@ -29,7 +32,7 @@ import {
 class Home extends React.Component {
   state = {
     MyCarousel: [],
-    flavicon: [],
+    favicon: [],
   }
 
   render() {
@@ -55,25 +58,11 @@ class Home extends React.Component {
 </section>
 
 
-<div class="box-wrapper">
-  <div class="box">
-    
-<ul id="grid" class="clear">
-           <MyWave/>
-            {/* <div className="hexagon">
-             <img className="text distributorAssembliesHome" id="distributorAssemblies-pichome"src={brassDistributor} />
-            <Link className="text links-products"to='/distributor' id="distributorLink">Distributors</Link>
-
-             
-            </div> */}
-  </ul>
-</div>
-
     {/* <div className="carousel">
       < MyCarousel/>
     </div> */}
   </div>
-             </div>
+             
     );   
     }
   }

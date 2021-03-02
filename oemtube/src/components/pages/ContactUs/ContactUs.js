@@ -29,12 +29,12 @@ import * as emailjs from 'emailjs-com';
         subject,
         message_html: message,
       };
-      // emailjs.send(
-      //   'gmail',
+      emailjs.send(
+        'sales@oemtube.com',
       //   'template_XXXXXXXX',
       //    templateParams,
       //   'user_XXXXXXXXXXXXXXXXXXXX'
-      // )
+      )
       this.resetForm();
     };
   

@@ -7,10 +7,10 @@
 //   // align-items: flex-end;
 //   position: absolute;
   // background-color: #B77333;
-  // background-color: #374659;
-//   height: 150px;
-//   // width: auto;
-  margin-top: 10px;
+  background-color: #374659;
+  height: 125px;
+  width: auto;
+  margin-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 12px;
@@ -25,12 +25,15 @@
   font-size: 20px;
   margin-left: 70px;
   margin-bottom: 10px;
-  font-family: Arvo
+  font-family: Arvo;
+  // color: black;
+//  color: #B77333;
 
 }
 
 .navbar-links:hover {
   color: lightgray;
+  
   
 }
 a {
