@@ -6,14 +6,16 @@
 //   justify-content: left;
 //   // align-items: flex-end;
 //   position: absolute;
+
   // background-color: #B77333;
   background-color: #374659;
   height: 125px;
   width: auto;
   margin-top: 5px;
+
   margin-left: 10px;
   margin-right: 10px;
-  border-radius: 12px;
+  border-radius: 10px;
   // background-image: repeating-linear-gradient(#B77333, silver 20%, #B87333 70%)
 //   // left: 0;
 }
@@ -22,12 +24,16 @@
   position:relative;
   text-decoration: none;
   color: white;
-  font-size: 20px;
-  margin-left: 70px;
+  font-size: 15px;
+  margin-right:10px;
+  margin-left: 50px;
   margin-bottom: 10px;
   font-family: Arvo;
+
   // color: black;
-//  color: #B77333;
+//  color: #B77333
+  border-right:solid 1px #fff;
+
 
 }
 

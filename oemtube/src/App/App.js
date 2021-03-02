@@ -15,6 +15,7 @@ import MyFooter from '../components/shared/MyFooter/MyFooter';
 import AboutUs from '../components/pages/AboutUs/AboutUs';
 import RequestQuote from '../components/pages/RequestQuote/RequestQuote';
 import ContactUs from '../components/pages/ContactUs/ContactUs';
+import MyFooter from '../components/shared/MyFooter/MyFooter';
 
 
 class App extends React.Component {
@@ -37,7 +38,9 @@ render() {
               <Route path='/contactUs' component={ContactUs} />
               <Redirect from="*" to='/home'/>
               </Switch>
+
               <MyFooter />
+
      {/* </div> */}
     {/* </div> */}
      </React.Fragment>
