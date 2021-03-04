@@ -15,7 +15,7 @@ import MyFooter from '../components/shared/MyFooter/MyFooter';
 import AboutUs from '../components/pages/AboutUs/AboutUs';
 import RequestQuote from '../components/pages/RequestQuote/RequestQuote';
 import ContactUs from '../components/pages/ContactUs/ContactUs';
-import MyFooter from '../components/shared/MyFooter/MyFooter';
+import Serpentines from '../components/pages/SerpentineHelical/SerpentineHelical';
 
 
 class App extends React.Component {
@@ -33,12 +33,12 @@ render() {
               <Switch>
               <Route path='/home' component={Home} />
               <Route path='/distributor' component={DistributorAssemblies} />
+              <Route path='/serpentine-helical-coils' component={Serpentines} />
               <Route path='/products' component={Products} />
               <Route path='/aboutus' component={AboutUs} />
               <Route path='/contactUs' component={ContactUs} />
               <Redirect from="*" to='/home'/>
               </Switch>
-
               <MyFooter />
 
      {/* </div> */}

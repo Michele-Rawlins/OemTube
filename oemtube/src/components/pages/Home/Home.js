@@ -10,6 +10,7 @@ import distributor40 from '../../../photos/Distributor-40-line.jpg';
 import brassDistributor from '../../../photos/Brass-Distributor-Assembly.jpg';
 import MyWave from '../../shared/MyWave/MyWave';
 import MyNavbar from '../../shared/MyNavbar/MyNavbar';
+// import curvedCopper from '../../../photos/copperCurved';
 import background from '../../../photos/textureCopper.jpg';
 import {
   Collapse,
@@ -49,7 +50,8 @@ class Home extends React.Component {
        
        <div className="heroarea">
 
-  <h1 className="typewriter">Let us Fabricate your Future Products</h1>
+  <h1 className="typewriter">Let us fabricate your future</h1>
+  <h1 className="typewriter">Form your own opinion</h1>
   <article>
     <p className="intro">No Matter Your Industry.  No Matter Your Design.  We have a solution for You. Click below for a sampling of our custom fabrication.</p>
     <Link to='/products'><button className="intro-button" to='/products'>Browse Products</button></Link>

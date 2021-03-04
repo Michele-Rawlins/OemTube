@@ -42,7 +42,7 @@ class MyFooter extends React.Component {
        
          <Col md>
            <h3 className="visit">Visit Us</h3>
-           <h5 className="address">Oem Tube Assemblies</h5>
+           <h5 className="address">OEM Tube Assemblies</h5>
            <h5 className="address">191 Stone Container Dr.</h5>
            <h5 className="address">Clarksville, TN  37040</h5>
            <h5 className="address">Phone:  931-906-1124</h5>
