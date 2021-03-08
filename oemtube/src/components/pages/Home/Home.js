@@ -50,8 +50,8 @@ class Home extends React.Component {
        
        <div className="heroarea">
 
-  <h1 className="typewriter">Let us fabricate your future</h1>
-  <h1 className="typewriter">Form your own opinion</h1>
+  <h1 className="typewriter">Let us <span>&#163;</span>abricate your products</h1>
+  {/* <h1 className="typewriter"><span>&#163;</span>orm your own opinion</h1> */}
   <article>
     <p className="intro">No Matter Your Industry.  No Matter Your Design.  We have a solution for You. Click below for a sampling of our custom fabrication.</p>
     <Link to='/products'><button className="intro-button" to='/products'>Browse Products</button></Link>
