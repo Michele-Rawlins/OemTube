@@ -26,14 +26,6 @@ code {
     monospace;
 }
 
-.carouselItem {
-  width: 1000px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 400px;
-  width:400px;
-}
 .home{
   margin-top: 10px;
   margin-left: 10px;
@@ -109,7 +101,7 @@ button {
   white-space: wrap; /* unwrap Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  background-color: rgba(128,128,128, .3);
+  background-color: rgba(8, 8, 8, 0.8);
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;

@@ -1,0 +1,28 @@
+.serpentine-pic {
+  height: auto;
+   width: 350px;
+  padding: 50px;
+  border: solid white;
+  margin-bottom: 10px;
+  border-radius: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  flex: 350px;
+  background-color: #374659;
+   justify-content: space-around;
+   margin: 15px;
+
+}
+.SerpentineHelicalSections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  flex: 350px;
+  padding:10px;
+  justify-content: space-around;
+  border: solid white;
+  background-color: black;
+
+
+}

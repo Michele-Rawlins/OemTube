@@ -10,7 +10,7 @@ import './DistributorAssemblies.scss';
 class DistributorAssemblies extends React.Component {
   state = {
    DistributorAssemblies:{},
-    flavicon: [],
+  
   }
 
   render() {

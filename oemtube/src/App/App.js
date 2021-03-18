@@ -16,6 +16,7 @@ import AboutUs from '../components/pages/AboutUs/AboutUs';
 import RequestQuote from '../components/pages/RequestQuote/RequestQuote';
 import ContactUs from '../components/pages/ContactUs/ContactUs';
 import Serpentines from '../components/pages/SerpentineHelical/SerpentineHelical';
+import SpunProducts from '../components/pages/SpunProducts/SpunProducts';
 
 
 class App extends React.Component {
@@ -34,6 +35,7 @@ render() {
               <Route path='/home' component={Home} />
               <Route path='/distributor' component={DistributorAssemblies} />
               <Route path='/serpentine-helical-coils' component={Serpentines} />
+              <Route path='/spun-products' component={SpunProducts} />
               <Route path='/products' component={Products} />
               <Route path='/aboutus' component={AboutUs} />
               <Route path='/contactUs' component={ContactUs} />
