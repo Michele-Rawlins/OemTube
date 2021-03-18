@@ -4,6 +4,7 @@ import './Products.scss';
 import { Link } from 'react-router-dom'
 import { NavLink as RRNavLink } from 'react-router-dom';
 import distributor40 from '../../../photos/Distributor-40-line.jpg';
+import coil from '../../../photos/coil.png';
 import {
   Collapse,
   Navbar,
@@ -37,9 +38,7 @@ class Products extends React.Component {
           <br></br>
           <Link className="links-products"to='/serpentine-helical-coils'>Serpentine & Helical Coils</Link>
           <br></br>
-          <Link className="links-products"to='/strainers-accumulators'>Spun Copper Strainers & Accumulators</Link>
-          <br></br>
-          <Link className="links-products"to='/spun-copper-drier'>Spun Copper Driers</Link>
+          <Link className="links-products"to='/spun-products'>Spun Products</Link>
           <br></br>
           <Link className="links-products"to='/assembly-braze'>Assembly & Braze</Link>
           <br></br>
@@ -53,12 +52,20 @@ class Products extends React.Component {
 <div className="product-cards">
 
 <Card className="p-2 col-example text-center d-flex col-3 dashCard">
-          <CardTitle tag="h4">Where are we?</CardTitle>
+          <CardTitle tag="h4">Distributors</CardTitle>
           <CardImg className="cardPic"src={distributor40} alt="Card image cap" />
           <CardBody>
           <Link to='/distributor'>Distributors</Link>
       </CardBody>
       </Card>
+      <Card className="p-2 col-example text-center d-flex col-3 dashCard">
+          <CardTitle tag="h4">Serpentines and Helical Coils</CardTitle>
+          <CardImg className="cardPic"src={coil} alt="Card image cap" />
+          <CardBody>
+          <Link to='/serpentine-helical-coils'>Serpentines and Helical Coils</Link>
+      </CardBody>
+      </Card>
+
 </div>
 
 
