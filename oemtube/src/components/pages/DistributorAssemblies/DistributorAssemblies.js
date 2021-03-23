@@ -18,6 +18,7 @@ class DistributorAssemblies extends React.Component {
    
     return (
       <div className="distributorAssembliesSections">
+               <h1 classNme="title">Distributor Assemblies</h1>
         <img className="distributorAssemblies" id="distributorAssemblies-pic"src={distributor14} />
         <p className="distributorAssemblies" id="distributor-text">OEM is pleased to announce the introduction of brazed distributor assemblies targeted at the HVAC/R market.</p>
         <img className="distributorAssemblies" id="distributorAssemblies-pic"src={distributor40} />
