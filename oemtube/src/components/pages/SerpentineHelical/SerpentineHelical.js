@@ -19,6 +19,7 @@ render() {
 
   return (
 <div className="SerpentineHelicalSections d-flex flex-wrap">
+<h1 classNme="title">Serpentine and Helical Coils</h1>
 <img className="p-2 col-example text-center d-flex  serpentine-pic col-3 d-flex"src={serpentine} />
 <img className="p-2 col-example text-center d-flex  serpentine-pic col-3 d-flex"src={coil} />
 <img className="p-2 col-example text-center d-flex  serpentine-pic col-3 d-flex"src={helical} />
