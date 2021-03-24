@@ -36,8 +36,8 @@ class AboutUs extends React.Component {
       <div className="Location-container">
         <div className="location-pics-container d-flex flex-wrap">
           <img className="p-2 col-example text-center d-flex  col-3 clarksville-pic d-flex" src={Clarksville}/>
-          <img className="p-2 col-example text-center d-flex  col-3 favicon-pic d-flex" src={proto}/>
           <img className="p-2 col-example text-center d-flex  col-3 chipley-pic d-flex" src={Chipley}/>
+          <iframe className="locationMap"src="https://www.google.com/maps/d/embed?mid=17zfsegrgiA3c4nkRDmMsLhph6jW4M9lQ&hl=en" width="640" height="480"></iframe>
          </div>
          </div>
         
