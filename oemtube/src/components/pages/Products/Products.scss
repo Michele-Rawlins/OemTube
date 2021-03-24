@@ -45,7 +45,9 @@ body {
 #headerpic {
   text-align: center;
   width: 900px;
-  margin: auto; 
+  margin-left: 175px; 
+  margin-bottom: 85px;
+  border: solid #374659 10px; 
 }
 .product-intro {
   margin: auto;
@@ -53,4 +55,8 @@ body {
   background-color: rgba(8, 8, 8, 0.8);
   letter-spacing: .15em;
   text-align: center;
+}
+.product-cards {
+  padding: 10px;
+  margin: 10px;
 }
