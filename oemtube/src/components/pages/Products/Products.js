@@ -6,6 +6,7 @@ import { NavLink as RRNavLink } from 'react-router-dom';
 import distributor40 from '../../../photos/Distributor-40-line.jpg';
 import coil from '../../../photos/coil.png';
 import spun from '../../../photos/spun.png';
+import header from '../../../photos/header-tubes.jpg'
 import {
   Collapse,
   Navbar,
@@ -71,6 +72,13 @@ class Products extends React.Component {
           <CardImg className="cardPic"src={spun} alt="Card image cap" />
           <CardBody>
           <Link to='/spun-products'>Spun Products</Link>
+      </CardBody>
+      </Card>
+      <Card className="p-2 col-example text-center d-flex col-3 dashCard">
+          <CardTitle tag="h4">Assembly and Braze</CardTitle>
+          <CardImg className="cardPic"src={header} alt="Card image cap" />
+          <CardBody>
+          <Link to='/assembly-braze'>Assembly and Braze</Link>
       </CardBody>
       </Card>
 
