@@ -6,7 +6,7 @@
 .pnp.js
 .eslintcache
 package-lock.json
-
+src/helpers/apiKeys.js
 
 # testing
 /coverage

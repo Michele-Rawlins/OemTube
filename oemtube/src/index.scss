@@ -3,8 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 
 
+// html,body
+// {
+//     width: 100%;
+//     height: 100%;
+//     // margin: 0px;
+//     padding: 0px;
+//     overflow-x: hidden; 
+// }
+
 body {
+  overflow-x: hidden;
   margin: 0;
+  width: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Arvo','Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -80,7 +91,7 @@ h1{
   background-size: cover;
   box-shadow: 5px 5px 5px 5px black; 
   align-items: center;
-  width: 1350px;
+  width: auto;
   border-radius: 12px;
   padding: 10px 10px 40px 10px;
 }
@@ -126,4 +137,7 @@ button {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #ae7353; }
+}
+body.aboutUs {
+  background-color: white;
 }

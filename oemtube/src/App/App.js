@@ -31,8 +31,8 @@ render() {
         <BrowserRouter>
           <React.Fragment>
             <MyNavbar />
-              {/* <div className="container"> */}
-                {/* <div className="row"> */}
+               <div className="container">
+                {/* <div className="row">  */}
               <Switch>
               <Route path='/home' component={Home} />
               <Route path='/distributor' component={DistributorAssemblies} />
@@ -46,8 +46,8 @@ render() {
               </Switch>
               <MyFooter />
 
-     {/* </div> */}
-    {/* </div> */}
+      {/* </div> */}
+     </div> 
      </React.Fragment>
         </BrowserRouter>
         </div>
