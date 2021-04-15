@@ -30,10 +30,10 @@ import * as emailjs from 'emailjs-com';
         message_html: message,
       };
       emailjs.send(
-        // 'gmail',
-      //   'template_XXXXXXXX',
-      //    templateParams,
-      //   'user_XXXXXXXXXXXXXXXXXXXX'
+       'Oemtube191@gmail.com',
+        'template_a4hfqdc',
+         templateParams,
+        'user_id'
       )
       this.resetForm();
     };
@@ -106,7 +106,7 @@ import * as emailjs from 'emailjs-com';
   
           <Field kind="group">
             <Control>
-             <a href='mailto:mrawlins@oemtube.com'><Button color="dark">Send</Button></a>
+            <Button color="dark">Send</Button>
             </Control>
             {/* <Control>
               <Button text>Cancel</Button>
