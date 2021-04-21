@@ -4,6 +4,9 @@ import CopperNickle from '../../../photos/copperNickle.jpg';
 import Coils from '../../../photos/coils.PNG';
 import Parts from '../../../photos/parts.PNG';
 import StainlessSteelCoil from '../../../photos/Stainless-steel-coil.jpg';
+import copperCoil from '../../../photos/Copper-coil-bent-tube.jpg';
+import loch from '../../../photos/lochinvar.jpg';
+import apc from '../../../photos/APC-Assembly-Blurr.jpg';
 import Clarksville from '../../../photos/clarksville1.png';
 import Chipley from '../../../photos/Chipley1.png';
 import favicon from '../../../photos/favicon.jpg';
@@ -32,6 +35,9 @@ class AboutUs extends React.Component {
           <img className="header-pic"src ={Coils}></img>
           <img className="header-pic"src ={Parts}></img>
           <img className="header-pic"src ={StainlessSteelCoil}></img>
+          <img className="header-pic"src ={copperCoil}></img>
+          <img className="header-pic"src ={loch}></img>
+          <img className="header-pic"src ={apc}></img>
          </div>
       <div className="Location-container">
         <div className="location-pics-container d-flex flex-wrap">

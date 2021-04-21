@@ -8,7 +8,7 @@
 }
 
 .distributorAssemblies {
-  width: 400px;
+  width: 300px;
   padding: 50px;
 //   display: grid;
 //   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  flex: 350px;
+  flex: 250px;
   padding:10px;
   justify-content: space-around;
   border: solid white;
@@ -33,4 +33,26 @@
   letter-spacing: .15em;
   text-align: center;
 
+}
+
+.title{
+  text-align: center;
+}
+.home-return {
+  color: #374659;
+  clear:left;
+  margin: 20px;
+
+}
+
+.product-return {
+  color: #374659;
+  margin: 20px;
+  clear:left;
+}
+
+.quote-request {
+  color: #374659;
+  margin: 20px;
+  clear:left;
 }

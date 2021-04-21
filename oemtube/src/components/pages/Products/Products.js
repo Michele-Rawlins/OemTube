@@ -7,6 +7,7 @@ import distributor40 from '../../../photos/Distributor-40-line.jpg';
 import coil from '../../../photos/coil.png';
 import spun from '../../../photos/spun.png';
 import header from '../../../photos/header-tubes.jpg'
+import parts from '../../../photos/parts.PNG'
 import {
   Collapse,
   Navbar,
@@ -34,7 +35,7 @@ class Products extends React.Component {
     return (
         <div className="products">
           <div className="sidebar">
-      <div className="links">
+      {/* <div className="links">
           <Link className="links-products"to='/distributor'>Distributor Assemblies</Link>
           <br></br>
           <Link className="links-products"to='/serpentine-helical-coils'>Serpentine & Helical Coils</Link>
@@ -43,9 +44,9 @@ class Products extends React.Component {
           <br></br>
           <Link className="links-products"to='/assembly-braze'>Assembly & Braze</Link>
           <br></br>
-          <Link className="links-products"to='/tube-cut'>Tube Fabrication</Link>          
+          <Link className="links-products"to='/tube-fabrication'>Tube Fabrication</Link>          
           <br></br>
-          </div>   
+          </div>    */}
       </div>
          <div className="company-intro article">
         <p className="product-intro">OEM Tube is focused on providing high quality fabricated tubing to the HVAC and Refrigeration Industries.  We supply custom fabrication with copper, brass, aluminum and stainless steel.  Processes range from simple cut to length parts to complex brazed assemblies to fit your specific design requirements.  OEM Tube offers a high level of Quality and Customer Service . We believe in growth by investing in state of the art equipment, expanding our capabilities and supplier relationships globally. We are the source, you should consider first.</p>
@@ -81,7 +82,13 @@ class Products extends React.Component {
           <Link to='/assembly-braze'>Assembly and Braze</Link>
       </CardBody>
       </Card>
-
+      <Card className="p-2 col-example text-center d-flex col-3 dashCard">
+          <CardTitle tag="h4">Tube Fabrication</CardTitle>
+          <CardImg className="cardPic"src={parts} alt="Card image cap" />
+          <CardBody>
+          <Link to='/tube-fabrication'>Tube Fabrication</Link>
+      </CardBody>
+      </Card>
 </div>
 
 

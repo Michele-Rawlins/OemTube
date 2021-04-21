@@ -18,7 +18,7 @@ import ContactUs from '../components/pages/ContactUs/ContactUs';
 import Serpentines from '../components/pages/SerpentineHelical/SerpentineHelical';
 import SpunProducts from '../components/pages/SpunProducts/SpunProducts';
 import AssemblyBraze from '../components/pages/AssemblyBraze/AssemblyBraze';
-
+import TubeFabrication from '../components/pages/TubeFabrication/TubeFabrication';
 
 
 class App extends React.Component {
@@ -39,6 +39,7 @@ render() {
               <Route path='/serpentine-helical-coils' component={Serpentines} />
               <Route path='/spun-products' component={SpunProducts} />
               <Route path='/assembly-braze' component={AssemblyBraze} />
+              <Route path='/tube-fabrication' component={TubeFabrication} />
               <Route path='/products' component={Products} />
               <Route path='/aboutus' component={AboutUs} />
               <Route path='/contactUs' component={ContactUs} />
