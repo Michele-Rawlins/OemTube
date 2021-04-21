@@ -66,6 +66,7 @@ class MyFooter extends React.Component {
 
              
             </div> */}
+            <p className="nameTag" color="#374659">&#169; &#9749;WebDesigns by Michele Rawlins</p>
   {/* </ul> */}
 </div>
 </div>
