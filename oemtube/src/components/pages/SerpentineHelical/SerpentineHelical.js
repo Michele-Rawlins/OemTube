@@ -19,7 +19,7 @@ render() {
 
   return (
 <div className="SerpentineHelicalSections d-flex flex-wrap">
-<h1 classNme="title">Serpentine and Helical Coils</h1>
+<h1 className="title">Serpentine and Helical Coils</h1>
 <a className = "home-return" href='/home'> Back Home</a>
       <a className = "product-return"href='/products'> Back to Products</a>
       <a className = "quote-request"href='/requestquote'> Request A Quote</a>

@@ -2,24 +2,25 @@
   height: 300px;
   width: 300px;
   padding: 10px;
+  margin: 75px;
   border: solid white;
   margin-bottom: 10px;
   border-radius: 15px 30px;
 }
 
 .distributorAssemblies {
-  width: 300px;
+  // width: 300px;
   padding: 50px;
 //   display: grid;
 //   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 //   grid-template-rows: repeat(6, 200px);
-//   grid-gap: 1rem;
+//   grid-gap: 1rem;;
 //   grid-auto-flow: dense;
 }
 .distributorAssembliesSections {
-  display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap:wrap;
   flex: 250px;
   padding:10px;
   justify-content: space-around;
@@ -31,7 +32,7 @@
   
   background-color: rgba(8, 8, 8, 0.8);
   letter-spacing: .15em;
-  text-align: center;
+  // text-align: left;
 
 }
 
