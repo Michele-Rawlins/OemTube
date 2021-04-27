@@ -18,7 +18,7 @@ import emailjs from 'emailjs-com';
         function sendEmail(e) {
           e.preventDefault();
       
-          emailjs.sendForm('gmail', 'template_a4hfqdc', e.target, 'user_EV8YRxj3O3kD0Gw8jcB1t')
+          emailjs.sendForm('service_kblgw7t', 'template_a4hfqdc', e.target, 'user_EV8YRxj3O3kD0Gw8jcB1t')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
