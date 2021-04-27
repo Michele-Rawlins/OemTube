@@ -43,6 +43,7 @@ render() {
               <Route path='/products' component={Products} />
               <Route path='/aboutus' component={AboutUs} />
               <Route path='/contactUs' component={ContactUs} />
+              <Route path='/requestquote' component={RequestQuote} />
               <Redirect from="*" to='/home'/>
               </Switch>
               <MyFooter />
