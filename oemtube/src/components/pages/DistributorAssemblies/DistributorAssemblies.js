@@ -22,7 +22,7 @@ class DistributorAssemblies extends React.Component {
               <h1 className="title">Distributor Assemblies</h1>
               <a className = "home-return" href='/home'> Back Home</a>
               <a className = "product-return"href='/products'> Back to Products</a>
-              <a className = "quote-request"href='/requestquote'> Request A Quote</a>
+              <a className = "quote-request"href='/requestQuote'> Request A Quote</a>
         </div>
       <div className="distributorAssemblies">
       <p className="distributorAssemblies" id="distributor-text">OEM is pleased to announce the introduction of brazed distributor assemblies targeted at the HVAC/R market.

@@ -19,7 +19,7 @@ class AssemblyBraze extends React.Component {
       <h1 className="title-braze">Assembly and Braze Products</h1>
       <a className = "home-return" href='/home'> Back Home</a>
       <a className = "product-return"href='/products'> Back to Products</a>
-      <a className = "quote-request"href='/requestquote'> Request A Quote</a>
+      <a className = "quote-request"href='/requestQuote'> Request A Quote</a>
 
       </div>
       <p className="assemblyText">OEM can help you reduce your installation costs.  Let us supply your assemblies.  Whether its 4-way Expansion Valves, Your Industries Manifolds and Headers, Compressor Connecting Tubes,
