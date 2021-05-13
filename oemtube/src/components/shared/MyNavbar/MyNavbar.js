@@ -67,10 +67,10 @@ class MyNavbar extends React.Component {
  
                         </NavItem>
                         <NavItem>
-                           <NavLink className="navbar-links" tag={RRNavLink} to='/contactus'>Contact Us</NavLink>
+                           <NavLink className="navbar-links" tag={RRNavLink} to='/contactUs'>Contact Us</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="navbar-links" tag={RRNavLink} to='/requestquote'>Request A Quote</NavLink>
+                            <NavLink className="navbar-links" tag={RRNavLink} to='/requestQuote'>Request A Quote</NavLink>
                        </NavItem>
                                      </Nav>
                     </Collapse>

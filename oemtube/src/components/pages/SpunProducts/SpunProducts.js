@@ -27,7 +27,7 @@ class SpunProducts extends React.Component {
         <h1 className="title">Spun Products</h1>
         <a className = "home-return" href='/home'> Back Home</a>
       <a className = "product-return"href='/products'> Back to Products</a>
-      <a className = "quote-request"href='/requestquote'> Request A Quote</a>
+      <a className = "quote-request"href='/requestQuote'> Request A Quote</a>
         </div>
         <p className="spunText">We manufacture a variety of UL/CSA certified copper spun driers for use in fractional horsepower air conditioning and refrigeration applications.
         Driers utilizing copper as the body are resistant to corrosion and offer ease of installation due to the presence of copper to copper braze joint.  Both benefits lead to fewer leaks in the field.  

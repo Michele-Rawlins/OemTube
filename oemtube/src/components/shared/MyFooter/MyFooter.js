@@ -37,7 +37,7 @@ class MyFooter extends React.Component {
           <a href='/aboutUs'> <h5 className="navList">About Us</h5></a>
            <a href='/products'><h5 className="navList">Products</h5></a>
            <a href='/contactus'><h5 className="navList">Contact Us</h5></a>
-           <a href='/requestquote'><h5 className="navList">Request A Quote</h5></a>
+           <a href='/requestQuote'><h5 className="navList">Request A Quote</h5></a>
 </Col>
        
          <Col md>

@@ -22,7 +22,7 @@ render() {
 <h1 className="title">Serpentine and Helical Coils</h1>
 <a className = "home-return" href='/home'> Back Home</a>
       <a className = "product-return"href='/products'> Back to Products</a>
-      <a className = "quote-request"href='/requestquote'> Request A Quote</a>
+      <a className = "quote-request"href='/requestQuote'> Request A Quote</a>
 <img className="p-2 col-example text-center d-flex  serpentine-pic col-3 d-flex"src={serpentine} />
 <img className="p-2 col-example text-center d-flex  serpentine-pic col-3 d-flex"src={coil} />
 <img className="p-2 col-example text-center d-flex  serpentine-pic col-3 d-flex"src={helical} />
