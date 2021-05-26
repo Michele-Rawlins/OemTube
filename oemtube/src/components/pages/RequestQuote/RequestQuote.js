@@ -70,12 +70,16 @@ import emailjs from 'emailjs-com';
             </div>
 
             <div className="col-8 form-group pt-3 mx auto">
-            <form action="#"enctype="multipart/form-data"  method="postg"onsubmit="sendQuote()">
+            <form enctype="multipart/form-data"  method ="post" onsubmit="sendQuote()">
               <label>Attach file:</label>
-              <input type="upload" name="my_file"/> 
-              {/* <input type="submit" name="upload" value="Upload" /> */}
+              <input type="file" name="my_file"/> 
+              {/* <input type="submit" name="upload" value="Submit" /> */}
             </form>
-              
+            {/* <form enctype="multipart/form-data" method="post" onsubmit="formSubmit()">
+    <label>Attach file:</label>
+    <input type="file" name="my_file"> 
+    <input type="submit" value="Submit">
+</form>     */}
         <input type="submit" className="btn btn-info" value="Send Message"></input>
         </div>
         </div>
