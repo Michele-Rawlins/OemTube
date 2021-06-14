@@ -1,8 +1,11 @@
 import React from 'react';
 import favicon from '../../../photos/favicon.jpg';
-import curvedCopper from '../../../photos/copperCurved.png';
+import { NavLink as RRNavLink } from 'react-router-dom';
+import {
+  
+  NavLink,
+ } from 'reactstrap';
 
-import { Link } from 'react-router-dom'
 
 import {
  
@@ -28,16 +31,16 @@ class MyFooter extends React.Component {
              <Row>
              <Col md="auto"><h2 className="text-footer">OEM Tube Assemblies</h2>
           <p className="text-fabricate">We create possiblities in a fabricated world.</p>
-          <img className="favicon" src={favicon}></img>
+          <img className="favicon" src={favicon} alt="logo"></img>
           </Col>
          
           <Col md>
            <h3 className="explore">Explore</h3>
-           <a href='/home'><h5 className="navList">Home</h5></a> 
-          <a href='/aboutUs'> <h5 className="navList">About Us</h5></a>
-           <a href='/products'><h5 className="navList">Products</h5></a>
-           <a href='/contactus'><h5 className="navList">Contact Us</h5></a>
-           <a href='/requestQuote'><h5 className="navList">Request A Quote</h5></a>
+           <NavLink tag={RRNavLink} to='/home'><h5 className="navList">Home</h5></NavLink> 
+          <NavLink tag={RRNavLink} to='/aboutUs'> <h5 className="navList">About Us</h5></NavLink>
+           <NavLink tag={RRNavLink} to='/products'><h5 className="navList">Products</h5></NavLink>
+           <NavLink tag={RRNavLink} to='/contactus'><h5 className="navList">Contact Us</h5></NavLink>
+           <NavLink tag={RRNavLink} to='/requestQuote'><h5 className="navList">Request A Quote</h5></NavLink>
 </Col>
        
          <Col md>

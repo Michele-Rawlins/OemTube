@@ -1,26 +1,12 @@
 import React from 'react';
 import { NavLink as RRNavLink } from 'react-router-dom';
-import favicon from '../../../photos/favicon.jpg';
 import logo from '../../../photos/oemLogo21.jpg';
-import {
-    NavbarDropdown,
-    faCaretDown,
-    faUser,
-    faCaretUp,
-    faBookmark,
-    FontAwesomeIcon,
-    faArchive,
-    faCog,
-    Toggle,
-    
-} from 'react-navbar-dropdown';
-import { Link } from 'react-router-dom';
+
 
 import {
     Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
     Nav,
     NavItem,
     NavLink,
@@ -45,13 +31,13 @@ class MyNavbar extends React.Component {
 
    
     render() {
-        const { isOpen, isClosed, } = this.state;
+        const { isOpen } = this.state;
 
        
 
                 return(
                     <div className="MyNavbar">
-                      <Navbar expand="xl">
+                      <Navbar className="fluid ml-auto navbar-links"expand="lg">
                         <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={isOpen} navbar>
                         <img className="home-title"to="/home" src={logo} alt="logo"></img>
@@ -63,7 +49,7 @@ class MyNavbar extends React.Component {
                            <NavLink className="navbar-links" tag={RRNavLink} to='/aboutUs'>About Us</NavLink>
                         </NavItem>
                         <NavItem>
-                           <NavLink className="navbar-links" tag={RRNavLink} to='/products'>Products<i class="fa fa-caret-down"></i></NavLink>
+                           <NavLink className="navbar-links" tag={RRNavLink} to='/products'>Products</NavLink>
  
                         </NavItem>
                         <NavItem>

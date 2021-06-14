@@ -1,6 +1,5 @@
 import React from 'react';
-import favicon from '../../../photos/favicon.jpg';
-import curvedCopper from '../../../photos/copperCurved.png';
+
 
 import './MyWave.scss';
 class MyWave extends React.Component {
