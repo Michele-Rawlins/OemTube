@@ -24,6 +24,9 @@ import TubeFabrication from '../components/pages/TubeFabrication/TubeFabrication
 class App extends React.Component {
 
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+}
 
 render() {
       return (
