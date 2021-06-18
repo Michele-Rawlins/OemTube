@@ -1,17 +1,21 @@
 .serpentine-pic {
-  height: auto;
-   width: 350px;
-  padding: 50px;
+  height: 250px;
+  width: 300px;
+  padding: 40px;
+  // height: auto;
+  //  width: 350px;
+  // padding: 50px;
   border: solid white;
   margin-bottom: 10px;
   border-radius: 15px 30px;
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  flex: 350px;
+  // flex: 350px;
   background-color: #374659;
    justify-content: space-around;
    margin: 15px;
+   max-width: 100%;
 
 }
 .SerpentineHelicalSections {
@@ -27,13 +31,14 @@
 
 }
 
-.title{
+.title {
   text-align: center;
 }
 .home-return {
   color: #374659;
   clear:left;
   margin: 20px;
+  text-align: center;
 
 }
 
@@ -41,10 +46,12 @@
   color: #374659;
   margin: 20px;
   clear:left;
+  text-align: center;
 }
 
 .quote-request {
   color: #374659;
   margin: 20px;
   clear:left;
+  text-align: center;
 }

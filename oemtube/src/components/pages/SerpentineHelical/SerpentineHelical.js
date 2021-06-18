@@ -27,10 +27,16 @@ render() {
 
   return (
 <div className="SerpentineHelicalSections d-flex flex-wrap">
-<h1 className="title">Serpentine and Helical Coils</h1>
+  <div className="title">
+    <h1 className="title">Serpentine and Helical Coils</h1>
+  </div>
+<br></br>
+  <div className="links">
       <NavLink className = "home-return" tag={RRNavLink} to='/home'> Back Home</NavLink>
       <NavLink className = "product-return" tag={RRNavLink} to='/products'> Back to Products</NavLink>
       <NavLink className = "quote-request" tag={RRNavLink} to='/requestQuote'> Request A Quote</NavLink>
+  </div>
+       <br></br>
 <img className="p-2 col-example text-center d-flex  serpentine-pic col-3 d-flex"src={serpentine} alt ="serpentine"/>
 <img className="p-2 col-example text-center d-flex  serpentine-pic col-3 d-flex"src={coil}  alt="coil"/>
 <img className="p-2 col-example text-center d-flex  serpentine-pic col-3 d-flex"src={helical} alt="helical coil"/>

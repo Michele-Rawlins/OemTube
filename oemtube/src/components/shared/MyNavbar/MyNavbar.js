@@ -4,6 +4,7 @@ import logo from '../../../photos/oemLogo21.jpg';
 
 
 import {
+    
     Collapse,
     Navbar,
     NavbarToggler,
@@ -17,8 +18,8 @@ import './MyNavbar.scss';
 class MyNavbar extends React.Component {
     state = {
         isOpen: true,
-        logo:[],
-        isClosed: false,
+         logo:[],
+        // isClosed: false,
         CSSTransitionMenu: [],
         Item: [],
        
@@ -37,11 +38,13 @@ class MyNavbar extends React.Component {
 
                 return(
                     <div className="MyNavbar">
-                      <Navbar className="fluid ml-auto navbar-links"expand="lg">
+                      
+                      <Navbar expand="lg">
                         <NavbarToggler onClick={this.toggle} />
+                     
                         <Collapse isOpen={isOpen} navbar>
+                        <Nav className="navbar ml-auto navbar-collapse">
                         <img className="home-title"to="/home" src={logo} alt="logo"></img>
-                        <Nav className=" navbar ml-auto" navbar>
                         <NavItem>
                             <NavLink className="navbar-links" tag={RRNavLink} to='/home'>Home</NavLink>
                         </NavItem>
@@ -59,6 +62,7 @@ class MyNavbar extends React.Component {
                             <NavLink className="navbar-links" tag={RRNavLink} to='/requestQuote'>Request A Quote</NavLink>
                        </NavItem>
                                      </Nav>
+                      
                     </Collapse>
                 </Navbar>
               
