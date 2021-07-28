@@ -18,6 +18,8 @@ class Home extends React.Component {
     window.scrollTo(0, 0);
 }
 
+
+
   render() {
    
     
@@ -25,7 +27,8 @@ class Home extends React.Component {
     return (
     
 
-   <div className="home container">
+   <div className="home container-fluid">
+  
      <section class="hero">
       
    
@@ -38,6 +41,7 @@ class Home extends React.Component {
     <p className="intro">No Matter Your Industry.  No Matter Your Design.  We have a solution for You. Click below for a sampling of our custom fabrication.</p>
 <button className="intro-button"><NavLink tag={RRNavLink} to='/products'>Browse Products</NavLink></button>
   </article>
+  
 </div>
 </section>
 

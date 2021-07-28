@@ -7,6 +7,8 @@ import {
   Switch,
 } from 'react-router-dom';
 
+import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
+
 import MyNavbar from '../components/shared/MyNavbar/MyNavbar';
 import Home from '../components/pages/Home/Home';
 import Products from '../components/pages/Products/Products';
@@ -15,6 +17,7 @@ import MyFooter from '../components/shared/MyFooter/MyFooter';
 import AboutUs from '../components/pages/AboutUs/AboutUs';
 import RequestQuote from '../components/pages/RequestQuote/RequestQuote';
 import ContactUs from '../components/pages/ContactUs/ContactUs';
+// import WorkWithUs from '../components/pages/WorkWithUs/WorkWithUs';
 import Serpentines from '../components/pages/SerpentineHelical/SerpentineHelical';
 import SpunProducts from '../components/pages/SpunProducts/SpunProducts';
 import AssemblyBraze from '../components/pages/AssemblyBraze/AssemblyBraze';
@@ -28,13 +31,18 @@ class App extends React.Component {
     window.scrollTo(0, 0);
 }
 
+
+
+
 render() {
       return (
       <div className="App">
         <BrowserRouter>
+        <ScrollToTop/>
           <React.Fragment>
+            
             <MyNavbar />
-               <div className="container">
+               <div className="container-fluid">
                 {/* <div className="row">  */}
               <Switch>
               <Route path='/home' component={Home} />
@@ -45,15 +53,20 @@ render() {
               <Route path='/tube-fabrication' component={TubeFabrication} />
               <Route path='/products' component={Products} />
               <Route path='/aboutus' component={AboutUs} />
+              {/* <Route path='/workWithUs' component={WorkWithUs} /> */}
               <Route path='/contactUs' component={ContactUs} />
               <Route path='/requestQuote' component={RequestQuote} />
               <Redirect from="*" to='/home'/>
               </Switch>
+              
               <MyFooter />
+   
+              
 
       {/* </div> */}
      </div> 
      </React.Fragment>
+     {/* </ScrollToTop> */}
         </BrowserRouter>
         </div>
   );

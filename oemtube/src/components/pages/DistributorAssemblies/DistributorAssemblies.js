@@ -30,11 +30,15 @@ class DistributorAssemblies extends React.Component {
       <div className="distributorAssemblies">
       <p className="distributorAssemblies" id="distributor-text">OEM is pleased to announce the introduction of brazed distributor assemblies targeted at the HVAC/R market.
           Utilizing proprietary brazing and testing processes, we manufacture leak free distributor assemblies that meet our customer’s specification.  Our process allows for the prefabrication of complex bent distributor tubes.  </p>
+      <div className="firstrow center container-fluid d-flex flex wrap">
       <img className="distributorAssemblies" id="distributorAssemblies-pic"src={distributor14} alt="distributor"/>
       <img className="distributorAssemblies" id="distributorAssemblies-pic"src={distributor40} alt="distributor" />
+      </div>
       <p className="distributorAssemblies"id="distributor-text">Braze rings, installed on distributor tubes prior to braze operation, offer precise amount of filler material with repeatable results.  The assembly is purged with inert gas during the braze operation.  Complete assembly can be tested to verify flow and leak free production.</p>
+      <div className="firstrow center container-fluid d-flex flex wrap">
       <img className="distributorAssemblies" id="distributorAssemblies-pic"src={distributorSmall} alt="distributor"/>
       <img className="distributorAssemblies" id="distributorAssemblies-pic"src={distributor} alt="distributor" />
+      </div>
       </div>
       </div>
     );

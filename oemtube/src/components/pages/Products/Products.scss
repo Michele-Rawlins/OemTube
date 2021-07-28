@@ -14,20 +14,35 @@ body {
   padding: 10px;
 }
 
-.dashCard {
-  border: solid #374659;
-  padding: 10px;
-  margin: 2px;
-  margin-bottom: 15px;
-  white-space: nowrap;
-  max-width: 100%;
-  word-wrap: break-word;
-  flex-wrap: wrap
+.cardPic {
+ margin: auto;
+height: 200px
+
 }
 
-.column-6 {
-  text-align: center;
+Card {
+  padding: 5px;
 }
+.dashCard {
+  align-content: space-around;
+  text-align: center;
+border: solid #374659;
+padding: 10px;
+margin: 2px;
+margin-bottom: 15px;
+white-space: nowrap;
+max-width: 100%;
+word-wrap: break-word;
+flex-wrap: wrap
+
+
+  // left: 0;
+  // right: 0;
+}
+
+// .column-6 {
+//   text-align: center;
+// }
 
 @media (max-width: 768px) { 
   #headerpic {
@@ -39,9 +54,14 @@ body {
   max-width:100%;
   height:auto;
   text-align: center;
+  margin:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  // width: 50%;
   // width: 900px;
-  margin-left: 130px; 
-  margin-bottom: 85px;
+  // margin-left: 130px; 
+  // margin-bottom: 85px;
   border: solid #374659 10px; 
   // overflow-y: scroll;
   white-space: nowrap;
@@ -58,11 +78,16 @@ body {
   text-align: center;
 }
 .product-cards {
-  padding: 5px;
-  margin: 2px 2px 2px 2px;
+  padding: 10px;
+  display: flex;
+  margin:  auto;
   flex-wrap: wrap;
-  text-align: center;
+  text-align: auto;
   word-wrap: break-word;
+  float: none;
+  // left: 0;
+  // right: 0;
+
 }
 @media (max-width: 768px) { 
   .product-cards {
