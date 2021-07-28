@@ -40,11 +40,12 @@ class AboutUs extends React.Component {
           <img className="header-pic"src ={loch} alt="boiler part"></img>
           <img className="header-pic"src ={apc} alt="copper assembly"></img>
          </div>
-      <div className="Location-container">
-        <div className="location-pics-container d-flex flex-wrap">
+      <div className="Location-container-fluid">
+        <div className="location-pics container-fluid d-flex flex-wrap">
           <img className="p-2 col-example text-center d-flex  col-3 clarksville-pic d-flex" src={Clarksville} alt="Clarksville location" />
           <img className="p-2 col-example text-center d-flex  col-3 chipley-pic d-flex" src={Chipley} alt="Chipley location"/>
           <iframe className="locationMap"src="https://www.google.com/maps/d/embed?mid=17zfsegrgiA3c4nkRDmMsLhph6jW4M9lQ&hl=en" width="640" height="480"></iframe>
+      
          </div>
          </div>
         

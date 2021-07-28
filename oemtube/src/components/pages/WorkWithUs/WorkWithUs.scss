@@ -1,0 +1,40 @@
+.WorkWithUs {
+  background-color: #374659;
+  margin-top: 100px;
+  flex: 350px;
+}
+
+.clarksville-pic {
+  float: left;
+  margin: auto;
+  margin-right: 100px;
+  border: white 10px solid;
+  margin-left: 100px;
+  max-width: 100%;
+  flex: 350px;
+  height: 300px;
+  
+}
+
+.chipley-pic {
+  float: right;
+  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: white 10px solid;
+  max-width: 100%;
+  flex: 350px;
+  height: 300px;
+}
+
+.employee-container-fluid {
+  
+  background-color: #374659;
+  text-align: center;
+
+}
+
+.text {
+  text-align: center;
+  margin: auto;
+}

@@ -48,3 +48,17 @@
   font-family: cursive;
   font-style: italic;
 }
+.social-media{
+  background-color:#374659 ;
+  text-align: center;
+}
+.social-pic {
+  // text-align: center;
+  flex-direction: row;
+  display: grid;
+  height: 2em;
+  width: 2em;
+  padding: 2px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -30,9 +30,9 @@ class SpunProducts extends React.Component {
   
   
     return (
-      <div className="SpunProductsSections d-flex flex-wrap">
-        <div className="title">
-        <h1 className="title">Spun Products</h1>
+      <div className="SpunProductsSections text-center container container-fluid d-flex flex-wrap">
+        <div className="title text-center">
+        <h1 className="title text-center d-flex container-fluid flex-wrap">Spun Products</h1>
           <NavLink className = "home-return" tag={RRNavLink} to='/home'> Back Home</NavLink>
           <NavLink className = "product-return" tag={RRNavLink} to='/products'> Back to Products</NavLink>
           <NavLink className = "quote-request" tag={RRNavLink} to='/requestQuote'> Request A Quote</NavLink>
